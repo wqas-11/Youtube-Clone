@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Youtube Clone</title>
+    <link rel="stylesheet" href="styling.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css" rel="stylesheet" />
+    <link rel="shortcut icon" href="/img/youtubelogo.png" type="image/x-icon">
+</head>
+
+<body>
+    <div class="header">
+        <div class="logo-container">
+            <i class="ri-menu-line"></i>
+            <div class="logo">
+                <div class="logo-image">
+                    <img src="/img/youtubelogo.png" alt="">
+                </div>
+                <h1 id="logo-text">Youtube</h1>
+            </div>
+        </div>
+        <div class="search-container">
+            <form action="">
+                <input type="text" placeholder="Search Here">
+            </form>
+            <button class="search"><i class="ri-search-line"></i></button>
+            <button class="mic"><i class="ri-mic-fill"></i></button>
+        </div>
+        <div class="profile-container">
+            <i class="ri-video-add-line"></i>
+            <i class="ri-grid-fill"></i>
+            <i class="ri-notification-4-line"></i>
+            <div class="profile-div">
+                <img src="/img/profile.jpg" alt="profilelogo">
+            </div>
+        </div>
+    </div>
+        <!-- sidemenu -->
+        <div class="body-container">
+            <div class="sidemenu">
+                <div class="sidemenu-items">
+                    <a href="#" class="sidemenu-item"> <i class="ri-home-5-line"></i> Home</a>
+                    <a href="#" class="sidemenu-item"> <i class="ri-play-circle-line"></i> Shortcts</a>
+                    <a href="#" class="sidemenu-item"> <i class="ri-rss-line"></i> Subsciption</a>
+                    <hr>
+                    <a href="#" class="sidemenu-item"><i class="ri-book-3-line"></i>Libraray</a>
+                    <a href="#" class="sidemenu-item"><i class="ri-history-line"></i>History</a>
+                    <a href="#" class="sidemenu-item"><i class="ri-video-line"></i>Your Videos</a>
+                    <a href="#" class="sidemenu-item"><i class="ri-time-line"></i>Watch Later</a>
+                    <a href="#" class="sidemenu-item"><i class="ri-thumb-up-line"></i>Liked Videos</a>
+                    <a href="#" class="sidemenu-item"><i class="ri-arrow-down-s-line"></i>Show more</a>
+                    <hr>
+                    <h4 class="exp">Explore</h4>
+                    <a href="#" class="sidemenu-item"><i class="ri-fire-line"></i>Trending</a>
+                    <a href="#" class="sidemenu-item"><i class="ri-music-line"></i>Music</a>
+                    <a href="#" class="sidemenu-item"><i class="ri-newspaper-line"></i>News</a>
+                    <a href="#" class="sidemenu-item"><i class="ri-gamepad-line"></i>Gaming</a>
+                    <a href="#" class="sidemenu-item"><i class="ri-trophy-line"></i>Sports</a>
+                    <hr class="ri-">
+                    <a href="#" class="sidemenu-item"><i class="ri-settings-5-line"></i>Settings</a>
+                    <a href="#" class="sidemenu-item"><i class="ri-flag-line"></i>Report History</a>
+                    <a href="#" class="sidemenu-item"><i class="ri-question-line"></i>Help</a>
+                    <a href="#" class="sidemenu-item"><i class="ri-feedback-line"></i>Send Feedback</a>
+                </div>
+            </div>
+        
+            <div class="content">
+                <div class="btn-wrapper">
+                    <div class="btn">
+                        <p>All</p>
+                    </div>
+                    <div class="btn">
+                        <p>Taarak Mehta Ka ulta Chashma</p>
+                    </div>
+                    <div class="btn">
+                        <p>Css</p>
+                    </div>
+                    <div class="btn">
+                        <p>Mixes</p>
+                    </div>
+                    <div class="btn">
+                        <p>Music</p>
+                    </div>
+                    <div class="btn">
+                        <p>Computer Programming</p>
+                    </div>
+                    <div class="btn">
+                        <p>Gaming</p>
+                    </div>
+                    <div class="btn">
+                        <p>Movies</p>
+                    </div>
+                    <div class="btn">
+                        <p>Challenges</p>
+                    </div>
+                    <div class="btn">
+                        <p>AI</p>
+                    </div>
+                </div>
+                
+                <!-- video section -->
+                <div class="video-container">
+                    <div class="video-container-cover">
+                        <div class="video-content">
+                            <a href="" class="video-box">
+                                <img src="/img/cooking.webp" alt=""></a>
+                            <div class="video-details">
+                                <div class="channel-logo">
+                                    <img src="/img/chnllogo.jpg" alt="channellogo">
+                                </div>
+                                <div class="detail">
+                                    <h3 class="title">Homemade Fried Fish Fillet Sandwich</h3>
+                                    <div class="channel-name">NYT Cooking</div>
+                                    <div class="views-upload">
+                                        <div class="views">30k views</div>
+                                        <div class="upload">•  2 months ago</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="hidden-content">
+                                <div class="button"><i class="ri-time-line"></i> Watch Later</div>
+                                <div class="button"><i class="ri-play-list-2-line"></i>Add to Queue</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="video-container-cover">
+                        <div class="video-content">
+                            <a href="" class="video-box">
+                                <img src="/img/2nd.webp" alt=""></a>
+                            <div class="video-details">
+                                <div class="channel-logo">
+                                    <img src="/img/Beardmeatsfood.jpg" alt="channellogo">
+                                </div>
+                                <div class="detail">
+                                    <h3 class="title">FOUR PEOPLE TRIED THIS TOGETHER AND FAILED</h3>
+                                    <div class="channel-name">BeardMeatsFood</div>
+                                    <div class="views-upload">
+                                        <div class="views">8M views</div>
+                                        <div class="upload">• 1 year ago</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="hidden-content">
+                                <div class="button"><i class="ri-time-line"></i> Watch Later</div>
+                                <div class="button"><i class="ri-play-list-2-line"></i>Add to Queue</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="video-container-cover">
+                        <div class="video-content">
+                            <a href="" class="video-box">
+                                <img src="/img/headchef.webp" alt=""></a>
+                            <div class="video-details">
+                                <div class="channel-logo">
+                                    <img src="/img/3rdlogo.jpg" alt="channellogo">
+                                </div>
+                                <div class="detail">
+                                    <h3 class="title">POV: Head Chef at a High End Restaurant</h3>
+                                    <div class="channel-name">Fallow</div>
+                                    <div class="views-upload">
+                                        <div class="views">100k views</div>
+                                        <div class="upload">• 1 months ago</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="hidden-content">
+                                <div class="button"><i class="ri-time-line"></i> Watch Later</div>
+                                <div class="button"><i class="ri-play-list-2-line"></i>Add to Queue</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="video-container-cover">
+                        <div class="video-content">
+                            <a href="" class="video-box">
+                                <img src="/img/chi.webp" alt=""></a>
+                            <div class="video-details">
+                                <div class="channel-logo">
+                                    <img src="/img/4th logo.jpg" alt="channellogo">
+                                </div>
+                                <div class="detail">
+                                    <h3 class="title">I Experienced CHI Force</h3>
+                                    <div class="channel-name">Jesse Enkamp</div>
+                                    <div class="views-upload">
+                                        <div class="views">829k views</div>
+                                        <div class="upload">• 2 weeks ago</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="hidden-content">
+                                <div class="button"><i class="ri-time-line"></i> Watch Later</div>
+                                <div class="button"><i class="ri-play-list-2-line"></i>Add to Queue</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="video-container-cover">
+                        <div class="video-content">
+                            <a href="" class="video-box">
+                                <img src="/img/5th thumbnail.webp" alt=""></a>
+                            <div class="video-details">
+                                <div class="channel-logo">
+                                    <img src="/img/5th.jpg" alt="channellogo">
+                                </div>
+                                <div class="detail">
+                                    <h3 class="title">Making American Cheese to debunk a conspiracy</h3>
+                                    <div class="channel-name">NYT Cooking</div>
+                                    <div class="views-upload">
+                                        <div class="views">5.4M views</div>
+                                        <div class="upload">• 1 month ago</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="hidden-content">
+                                <div class="button"><i class="ri-time-line"></i> Watch Later</div>
+                                <div class="button"><i class="ri-play-list-2-line"></i>Add to Queue</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="video-container-cover">
+                        <div class="video-content">
+                            <a href="" class="video-box">
+                                <img src="/img/6th thumbnail.webp" alt=""></a>
+                            <div class="video-details">
+                                <div class="channel-logo">
+                                    <img src="/img/6th.jpg" alt="channellogo">
+                                </div>
+                                <div class="detail">
+                                    <h3 class="title">How a Solo with 9,873 Hours Plays Official Rust...</h3>
+                                    <div class="channel-name">Willjum</div>
+                                    <div class="views-upload">
+                                        <div class="views">1.2M views</div>
+                                        <div class="upload"> • 2 weeks ago</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="hidden-content">
+                                <div class="button"><i class="ri-time-line"></i> Watch Later</div>
+                                <div class="button"><i class="ri-play-list-2-line"></i>Add to Queue</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="video-container-cover">
+                        <div class="video-content">
+                            <a href="" class="video-box">
+                                <img src="/img/7th thumbnail.webp" alt=""></a>
+                            <div class="video-details">
+                                <div class="channel-logo">
+                                    <img src="/img/7thlogo.jpg" alt="channellogo">
+                                </div>
+                                <div class="detail">
+                                    <h3 class="title">Unreal Engine 5's Biggest New Feature</h3>
+                                    <div class="channel-name">Unreal Senpai</div>
+                                    <div class="views-upload">
+                                        <div class="views">500k views</div>
+                                        <div class="upload">• 7 months ago</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="hidden-content">
+                                <div class="button"><i class="ri-time-line"></i> Watch Later</div>
+                                <div class="button"><i class="ri-play-list-2-line"></i>Add to Queue</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="video-container-cover">
+                        <div class="video-content">
+                            <a href="" class="video-box">
+                                <img src="/img/8th thumbnail.webp" alt=""></a>
+                            <div class="video-details">
+                                <div class="channel-logo">
+                                    <img src="/img/8th logo.jpg" alt="channellogo">
+                                </div>
+                                <div class="detail">
+                                    <h3 class="title">Physicist Explains Dimensions in 5 Levels of Difficulty | WIRED</h3>
+                                    <div class="channel-name">WIRED</div>
+                                    <div class="views-upload">
+                                        <div class="views">9.4M views</div>
+                                        <div class="upload">• 4 years ago</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="hidden-content">
+                                <div class="button"><i class="ri-time-line"></i> Watch Later</div>
+                                <div class="button"><i class="ri-play-list-2-line"></i>Add to Queue</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="video-container-cover">
+                        <div class="video-content">
+                            <a href="" class="video-box">
+                                <img src="/img/9th thumbnail.webp" alt=""></a>
+                            <div class="video-details">
+                                <div class="channel-logo">
+                                    <img src="/img/9th logo.jpg" alt="channellogo">
+                                </div>
+                                <div class="detail">
+                                    <h3 class="title">AI Makes Any Sound A Synth Preset INSTANTLY</h3>
+                                    <div class="channel-name">
+                                        longestsoloever2</div>
+                                    <div class="views-upload">
+                                        <div class="views">766k views</div>
+                                        <div class="upload">• 5 months ago</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="hidden-content">
+                                <div class="button"><i class="ri-time-line"></i> Watch Later</div>
+                                <div class="button"><i class="ri-play-list-2-line"></i>Add to Queue</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="video-container-cover">
+                        <div class="video-content">
+                            <a href="" class="video-box">
+                                <img src="/img/10th thumnail.webp" alt=""></a>
+                            <div class="video-details">
+                                <div class="channel-logo">
+                                    <img src="/img/10th logo.jpg" alt="channellogo">
+                                </div>
+                                <div class="detail">
+                                    <h3 class="title">The Fastest Maze-Solving Competition On Earth</h3>
+                                    <div class="channel-name">Veritasium
+                                    </div>
+                                    <div class="views-upload">
+                                        <div class="views">17M views</div>
+                                        <div class="upload">• 9 months ago</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="hidden-content">
+                                <div class="button"><i class="ri-time-line"></i> Watch Later</div>
+                                <div class="button"><i class="ri-play-list-2-line"></i>Add to Queue</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="video-container-cover">
+                        <div class="video-content">
+                            <a href="" class="video-box">
+                                <img src="/img/11th thumbnail.webp" alt=""></a>
+                            <div class="video-details">
+                                <div class="channel-logo">
+                                    <img src="/img/11thlogo.jpg" alt="channellogo">
+                                </div>
+                                <div class="detail">
+                                    <h3 class="title">Meet the Deadliest Cat on the Planet</h3>
+                                    <div class="channel-name">Nature on PBS
+                                    </div>
+                                    <div class="views-upload">
+                                        <div class="views">17M views</div>
+                                        <div class="upload"> • 5 years ago</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="hidden-content">
+                                <div class="button"><i class="ri-time-line"></i> Watch Later</div>
+                                <div class="button"><i class="ri-play-list-2-line"></i>Add to Queue</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="video-container-cover">
+                        <div class="video-content">
+                            <a href="" class="video-box">
+                                <img src="/img/12th thumbnail.webp" alt=""></a>
+                            <div class="video-details">
+                                <div class="channel-logo">
+                                    <img src="/img/12th logo.jpg" alt="channellogo">
+                                </div>
+                                <div class="detail">
+                                    <h3 class="title">Stunning photos show the Sun like never before | BBC News</h3>
+                                    <div class="channel-name">BBC News</div>
+                                    <div class="views-upload">
+                                        <div class="views">617k views</div>
+                                        <div class="upload">• 2 weeks ago</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="hidden-content">
+                                <div class="button"><i class="ri-time-line"></i> Watch Later</div>
+                                <div class="button"><i class="ri-play-list-2-line"></i>Add to Queue</div>
+                            </div>
+                        </div>
+                    </div>
+                </div> 
+               
+            </div>
+            </div>
+</body>
+
+</html>
